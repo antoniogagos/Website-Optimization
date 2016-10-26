@@ -9,6 +9,7 @@ Site is hosted on GitHubPages [here](https://balusus.github.io/Website-Optimizat
 The main changes to achieve the PageSpeed requested are the following ones: 
   * Loading Google Fonts Asynchronously with Web Font Loader Script
   * Optimizing CSS Delivery inlining it in the HTML document as it's a small CSS file
+  * Reducing all images size
   * Using Asynchronous Scripts so site is rendered and scripts are downloaded in the background
 
 ####Part 2: Optimize Frames per Second in pizza.html
