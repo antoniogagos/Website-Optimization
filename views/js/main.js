@@ -533,11 +533,12 @@ function updatePositions() {
       logAverageFrame(timesToUpdatePosition);
     }
 }
+
 // runs updatePositions on scroll
-var scroll;
+// src: https://www.html5rocks.com/en/tutorials/speed/animations/
 var ticking = false;
 window.addEventListener('scroll', function(e){
-    scroll = window.scrollY;
+    var scroll = window.scrollY;
     if(!ticking) {
         window.requestAnimationFrame(function(){
             updatePositions();
