@@ -4,7 +4,7 @@ This project belongs to Udacity FEND in which students should optimize a specifi
 
 ###To run the Application
 
-Site is hosted on GitHubPages here
+Site is hosted on GitHubPages [here](https://balusus.github.io/Website-Optimization/)
 
 ###Part 1: Optimize PageSpeed Insights score for index.html
 
